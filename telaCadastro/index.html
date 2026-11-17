@@ -6,15 +6,39 @@
     <meta name="theme-color" content="#174d36">
     <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
-    <script src="login.js" defer></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <main class="tela-Login">
         <div class="decoracao">
-            <div class="titulo">
-            <h1><span class="titulo1">Eco</span><span class="titulo2">Skin</span></h1>
-            </div>
+    <div class="carrossel">
+        <div class="slides" id="slides">
+    <div class="slide" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 40%), url('../images/image_162cf75d.jpg');">
+        <p class="slide-texto">Cosméticos naturais inspirados na natureza.</p>
+    </div>
+    <div class="slide" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 40%), url('../images/image_cd464f40.jpg');">
+        <p class="slide-texto">Cuidado sustentável para a sua pele todos os dias.</p>
+    </div>
+    <div class="slide" style="background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 40%), url('../images/image_e714a556.jpg');">
+        <p class="slide-texto">100% vegano, livre de crueldade e eco-friendly.</p>
+    </div>
+</div>
         </div>
+
+        <div class="titulo-overlay">
+            <h1><span class="titulo1">Eco</span><span class="titulo2">Skin</span></h1>
+        </div>
+
+        <button class="seta anterior" id="prev">&#10094;</button>
+        <button class="seta proximo" id="next">&#10095;</button>
+
+        <div class="indicadores" id="indicadores">
+            <span class="ponto ativo" data-index="0"></span>
+            <span class="ponto" data-index="1"></span>
+            <span class="ponto" data-index="2"></span>
+        </div>
+    </div>
+</div>
         <div class="dados">
             <div class="login-form">
                 <span class="Cadastro"><h3>Cadastro</h3></span>
